@@ -1,0 +1,15 @@
+#include <stdio.h>  
+#include <math.h>  
+int main ()  
+{    
+int x, y;  
+int z; 
+printf (" Enter x value: ");  
+scanf (" %d", &x); // get base from user  
+printf (" Enter y value: ");  
+scanf (" %d", &y); 
+  
+z = pow ( x, y);  
+printf (" %d to the y of %d is = %d ", x, y, z);  
+return 0;  
+}  
